@@ -1,0 +1,5 @@
+appName: go-web-app
+
+image:
+  name: ayaan49/go-web-app
+  tag: v1
