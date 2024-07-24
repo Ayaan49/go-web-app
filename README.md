@@ -15,22 +15,24 @@ Clone the [go web application](https://github.com/iam-veeramalla/go-web-app) in 
 
 ## Dockerizing GO application using multistage builds
 
-1. Run the application locally first
-     1. Build the go application first
+Run the application locally first
+
+1. Build the go application first
 ```
-     go build -o main
+go build -o main
 ```
-          Go binary `main` gets created.
+Go binary `main` gets created.
 
 2. Execute the binary
 ```
-     ./main
+./main
 ```
-         Go application should start running in the port mentioned.
+Go application should start running in the port mentioned.
 
  3. Dockerize the application now
 
-   ![[multistage_docker.png]]
+![multistage_docker](https://github.com/user-attachments/assets/1299da03-e283-4640-9604-53c8eedac6cc)
+
 ```
 # Dockerfile
 
@@ -678,10 +680,12 @@ Default
 After completing the above step click on `CREATE` and your CICD pipeline is ready!
 
 
-![[argocd_dashboard.png]]
+![argocd_dashboard](https://github.com/user-attachments/assets/373c2efc-c8ce-4b4e-a6dd-9ab110ab7828)
 
-![[argo3.png]]
+![argo3](https://github.com/user-attachments/assets/9ad35214-d5e7-47ba-b3e5-6d3bce623576)
+
 
 The site should look like this on the browser:
 
-![[golang-website.png]]
+<img width="1791" alt="golang-website" src="https://github.com/user-attachments/assets/f510c9af-60e7-48cd-bd61-90917e92d7e6">
+
