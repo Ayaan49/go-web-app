@@ -2,4 +2,4 @@ appName: go-web-app
 
 image:
   name: ayaan49/go-web-app
-  tag: "10072778928"
+  tag: "10072900456"
